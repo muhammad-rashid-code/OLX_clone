@@ -1,0 +1,290 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+main {
+  width: 100vw;
+  font-size: 1.2vw;
+}
+@media only screen and (max-width: 320px) {
+  main {
+    width: 100vw;
+    font-size: 4vw;
+  }
+}
+
+main > header {
+  border-bottom: 1px solid;
+  border: 1px solid #d6dfe0;
+  height: 23vh;
+}
+
+main > header > nav {
+}
+
+main > header > nav > .nav-top {
+  display: flex;
+  gap: 3vw;
+  width: 95vw;
+  margin: auto;
+  height: 12vh;
+  align-items: center;
+}
+
+main > header > nav > .nav-top > .logo {
+}
+
+main > header > nav > .nav-top > .logo > .logo-svg {
+  fill: #003035;
+}
+
+main > header > nav > .nav-top > .logo > .logo-svg > .svg-logo {
+}
+
+main > header > nav > .nav-top > .logo > .logo-svg > .svg-logo > .logo-path {
+}
+
+main > header > nav > .nav-top > .car {
+  text-decoration: none;
+  color: #002f34;
+}
+
+main > header > nav > .nav-top > .car > .car-span {
+  display: flex;
+  align-items: center;
+  column-gap: 1vh;
+}
+
+main > header > nav > .nav-top > .car > .car-span:hover {
+  color: #3a77ff;
+  fill: #3a77ff;
+  /* background-image: linear-gradient(#e0e0e0, #4f4f9d); */
+}
+
+main > header > nav > .nav-top > .car > .car-span > .svg {
+  background-image: linear-gradient(#e0e0e0, #ffffff);
+  padding: 1.25vh 0.5vw;
+  border-radius: 2.5vw;
+  width: auto;
+}
+
+/* main > header > nav > .nav-top > .car > .car-span > .svg :hover {
+  background-image: linear-gradient(#e0e0e0, #4f4f9d);
+} */
+
+main
+  > header
+  > nav
+  > .nav-top
+  > .car
+  > .car-span
+  > .svg
+  > .svg-car
+  > .c-path-1 {
+}
+
+main
+  > header
+  > nav
+  > .nav-top
+  > .car
+  > .car-span
+  > .svg
+  > .svg-car
+  > .c-path-2 {
+}
+
+main > header > nav > .nav-top > .car > .car-span > span {
+  font-weight: bold;
+  /* font-size: 1.17vw; */
+}
+
+main > header > nav > .nav-top > .prop {
+  text-decoration: none;
+  color: #002f34;
+}
+
+main > header > nav > .nav-top > .prop > .prop-span {
+  display: flex;
+  align-items: center;
+  column-gap: 1vh;
+}
+main > header > nav > .nav-top > .prop > .prop-span:hover {
+  color: #3a77ff;
+  fill: #3a77ff;
+}
+
+main > header > nav > .nav-top > .prop > .prop-span > .prop-svg {
+  background-image: linear-gradient(#e0e0e0, #ffffff);
+  padding: 1.25vh 0.5vw;
+  border-radius: 2.5vw;
+  width: auto;
+}
+
+main > header > nav > .nav-top > .prop > .prop-span > .prop-svg > .svg-prop {
+  background-image: linear-gradient(#e0e0e0, #ffffff);
+}
+
+main
+  > header
+  > nav
+  > .nav-top
+  > .prop
+  > .prop-span
+  > .prop-svg
+  > .svg-prop
+  > .path-prop {
+}
+
+main
+  > header
+  > nav
+  > .nav-top
+  > .prop
+  > .prop-span
+  > .prop-svg
+  > .svg-prop
+  > .path-prop2
+  > {
+}
+
+main > header > nav > .nav-top > .prop > .prop-span > span {
+  font-weight: bold;
+  /* font-size: 1.17vw; */
+}
+
+.nav-btm {
+  width: 95vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-btm > .location {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d6dfe0;
+  height: 8vh;
+  border-radius: 0.25vw;
+}
+
+.nav-btm > .location > .loc {
+  display: flex;
+  align-items: center;
+  width: 21vw;
+}
+
+.nav-btm > .location > .loc > .loc-img {
+  padding-left: 0.5vw;
+}
+
+.nav-btm > .location > .loc > .loc-img > .gps {
+}
+
+.nav-btm > .location > .loc > .loc-img > .gps > .pathGps {
+}
+
+.nav-btm > .location > .loc > .loc-inp {
+}
+
+.nav-btm > .location > .loc > .loc-inp #location-compound {
+  border: none;
+  outline: none;
+  height: 30px;
+  font-size: 1.1em;
+  padding-left: 1vw;
+}
+
+.nav-btm > .location > .arrow {
+  transition: transform 0.5s;
+  padding-right: 0.5vw;
+}
+
+.nav-btm > .location > .arrow:hover {
+  transform: rotate(180deg);
+}
+
+.nav-btm > .location > .arrow > .Dropdown {
+}
+
+.nav-btm > .location > .arrow > .Dropdown > .pathdrop {
+}
+
+.nav-btm > .sear {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d6dfe0;
+  width: 57vw;
+  height: 8vh;
+}
+
+.nav-btm > .sear > #search {
+  width: 57vw;
+  height: 8vh;
+  font-size: 1.1em;
+  padding-left: 1vw;
+  border: 1px solid #d6dfe0;
+  outline: none;
+}
+
+.nav-btm > .sear > .s-btn {
+}
+
+.nav-btm > .sear > .s-btn > button {
+  height: 8vh;
+  background-color: #003035;
+  fill: #ffffff;
+  width: 3.5vw;
+}
+
+.nav-btm > .sear > .s-btn > button > .mag {
+}
+
+.nav-btm > .sear > .s-btn > button > .mag > .pathmag {
+}
+
+.nav-btm > .login {
+  border-bottom: 2px solid #002f34;
+}
+
+.nav-btm > .login:hover {
+  border: none;
+}
+
+.nav-btm > .login > a {
+  text-decoration: none;
+  color: #002f34;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.nav-btm > .sell {
+  background-image: url(./img/seal-bnj.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 105px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-btm > .sell > .sell-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vw;
+  text-decoration: none;
+  color: #002f34;
+}
+
+.nav-btm > .sell > .sell-a > img {
+}
+
+.nav-btm > .sell > .sell-a > span {
+}
