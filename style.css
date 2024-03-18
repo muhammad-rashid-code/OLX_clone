@@ -259,7 +259,7 @@ main > header > nav > .nav-top > .prop > .prop-span > span {
 .nav-btm > .login > a {
   text-decoration: none;
   color: #002f34;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1.1em;
 }
 
@@ -281,10 +281,55 @@ main > header > nav > .nav-top > .prop > .prop-span > span {
   gap: 0.5vw;
   text-decoration: none;
   color: #002f34;
+  font-weight: 700;
+  font-size: 0.85em;
 }
 
 .nav-btm > .sell > .sell-a > img {
 }
 
 .nav-btm > .sell > .sell-a > span {
+}
+/* _____________________________ header ______________________END_____________________________________________ */
+
+/* section 2 start */
+.sec-2 {
+}
+
+.sec-2 > h1 {
+  width: 95vw;
+  margin: auto;
+}
+
+.sec-2 > .section-2 {
+  width: 95vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 3vh 3vw;
+}
+
+.sec-2 > .section-2 > .card {
+  text-decoration: none;
+  color: #002f34;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.sec-2 > .section-2 > .card > .tit {
+}
+
+.sec-2 > .section-2 > .card > .tit > .img {
+}
+
+.sec-2 > .section-2 > .card > .tit > .img > img {
+}
+
+.sec-2 > .section-2 > .card > .tit > h4 {
+  text-align: center;
+  width: 7.5vw;
 }
