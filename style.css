@@ -221,9 +221,11 @@ main > header > nav > .nav-top > .prop > .prop-span > span {
   border: 1px solid #d6dfe0;
   width: 57vw;
   height: 8vh;
+  border-radius: 50px;
 }
 
 .nav-btm > .sear > #search {
+  border-radius: 5px;
   width: 57vw;
   height: 8vh;
   font-size: 1.1em;
