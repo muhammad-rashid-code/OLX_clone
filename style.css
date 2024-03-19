@@ -37,7 +37,7 @@ main > header > nav > .nav-top {
   display: flex;
   gap: 3vw;
   width: 95vw;
-  margin: auto;
+  margin: 0 auto;
   height: 12vh;
   align-items: center;
 }
@@ -322,7 +322,7 @@ main > header > nav > .nav-top > .prop > .prop-span > span {
 .sec-1 > .section-1 {
   margin-top: 1vh;
   width: 95vw;
-  margin: auto;
+  margin: 0 auto;
   display: flex;
   gap: 5vw;
   overflow-x: hidden;
@@ -373,7 +373,7 @@ main > header > nav > .nav-top > .prop > .prop-span > span {
 
 .sec-2 > h2 {
   width: 95vw;
-  margin: auto;
+  margin: 0 auto;
   margin-top: 3vh;
   color: #002f34;
 }
@@ -420,7 +420,8 @@ main > header > nav > .nav-top > .prop > .prop-span > span {
 /* <!-- <section> 3--> */
 .sec-3 {
   width: 100vw;
-  margin: auto;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .sec-3 > .section-3 {
@@ -432,6 +433,8 @@ main > header > nav > .nav-top > .prop > .prop-span > span {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
 }
 
 .sec-3 > .section-3 > .heading > h1 {
@@ -441,6 +444,7 @@ main > header > nav > .nav-top > .prop > .prop-span > span {
 .sec-3 > .section-3 > .heading > .vm {
   color: #3a77ff;
   fill: #3a77ff;
+  text-decoration: none;
 }
 
 .sec-3 > .section-3 > .heading > .vm > span {
@@ -507,3 +511,7 @@ main > header > nav > .nav-top > .prop > .prop-span > span {
 .sec-3 > .section-3 > .card-sec > .card > .c-dtl > .days {
 }
 /* <!-- </section> 3--> */
+
+/* <!-- <section>4 --> */
+
+/* <!-- </section>4 --> */
