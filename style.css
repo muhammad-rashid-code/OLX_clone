@@ -9,6 +9,8 @@
 main {
   width: 100vw;
   font-size: 1.2vw;
+  overflow-x: hidden;
+  height: 100%;
 }
 @media only screen and (max-width: 320px) {
   main {
@@ -24,6 +26,8 @@ main > header {
   position: fixed;
   top: 0;
   width: 100vw;
+  background-color: #ffffff;
+  /* overflow-x: hidden; */
 }
 
 main > header > nav {
@@ -308,19 +312,74 @@ main > header > nav > .nav-top > .prop > .prop-span > span {
 }
 /* _____________________________ header ______________________END_____________________________________________ */
 
+/* <!-- section-1-start --> */
+.sec-1 {
+  margin-top: 23vh;
+  /* overflow-x: hidden; */
+  padding-top: 1vh;
+}
+
+.sec-1 > .section-1 {
+  margin-top: 1vh;
+  width: 95vw;
+  margin: auto;
+  display: flex;
+  gap: 5vw;
+  overflow-x: hidden;
+}
+
+.sec-1 > .section-1 > .select {
+  overflow-x: hidden;
+}
+
+.sec-1 > .section-1 > .select > select {
+  overflow-x: hidden;
+  width: 12vw;
+  border: none;
+  font-size: 1.25vw;
+  outline: none;
+  font-weight: 700;
+  color: #002f34;
+}
+
+.sec-1 > .section-1 > .select > select > a {
+}
+
+.sec-1 > .section-1 > .select > select > a > option {
+  overflow-x: hidden;
+}
+
+.sec-1 > .section-1 > .option {
+  overflow-x: hidden;
+  display: flex;
+  gap: 1vw;
+}
+
+.sec-1 > .section-1 > .option > a {
+  text-decoration: none;
+  color: #002f34;
+  font-size: 1.09vw;
+}
+
+.sec-1 > .section-1 > .option > a:hover {
+  color: #007fc4;
+}
+/* <!-- section-1-ENDed --> */
+
 /* section 2 start */
 .sec-2 {
-  margin-top: 23vh;
+  /* margin-top: 2vh; */
 }
 
 .sec-2 > h2 {
   width: 95vw;
   margin: auto;
-  margin-top: 23vh;
+  margin-top: 3vh;
+  color: #002f34;
 }
 
 .sec-2 > .section-2 {
-  margin-top: 23vh;
+  /* margin-top: 23vh; */
   width: 95vw;
   margin: auto;
   display: flex;
@@ -357,3 +416,94 @@ main > header > nav > .nav-top > .prop > .prop-span > span {
   width: 7.5vw;
   padding: auto;
 }
+
+/* <!-- <section> 3--> */
+.sec-3 {
+  width: 100vw;
+  margin: auto;
+}
+
+.sec-3 > .section-3 {
+  width: 95vw;
+  margin: auto;
+}
+
+.sec-3 > .section-3 > .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sec-3 > .section-3 > .heading > h1 {
+  color: #002f34;
+}
+
+.sec-3 > .section-3 > .heading > .vm {
+  color: #3a77ff;
+  fill: #3a77ff;
+}
+
+.sec-3 > .section-3 > .heading > .vm > span {
+  font-weight: 700;
+}
+
+.sec-3 > .section-3 > .heading > .vm > ._2e0d1516 {
+  font-weight: 700;
+}
+
+.sec-3 > .section-3 > .heading > .vm > ._2e0d1516 > .path {
+}
+
+.sec-3 > .section-3 > .card-sec {
+  display: flex;
+  column-gap: 4vh;
+}
+
+.sec-3 > .section-3 > .card-sec > .card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dfe0e0;
+  width: 22vw;
+  text-decoration: none;
+  border-radius: 2px;
+  color: #002f34;
+  fill: #002f34;
+}
+
+.sec-3 > .section-3 > .card-sec > .card > .img {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-3 > .section-3 > .card-sec > .card > .img > img {
+}
+
+.sec-3 > .section-3 > .card-sec > .card > .c-dtl {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  margin: auto;
+  gap: 1vh;
+}
+
+.sec-3 > .section-3 > .card-sec > .card > .c-dtl > .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sec-3 > .section-3 > .card-sec > .card > .c-dtl > .price > h2 {
+}
+
+.sec-3 > .section-3 > .card-sec > .card > .c-dtl > .price > .fa-heart {
+}
+
+.sec-3 > .section-3 > .card-sec > .card > .c-dtl > .p-dtls {
+}
+
+.sec-3 > .section-3 > .card-sec > .card > .c-dtl > .loc {
+}
+
+.sec-3 > .section-3 > .card-sec > .card > .c-dtl > .days {
+}
+/* <!-- </section> 3--> */
